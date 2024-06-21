@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+   
+</head>
+<body>
+   <nav id="desktop-nav">
+    <div class="logo">Aryan Bhatt</div>
+    <div>
+        <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+   </nav>
+   <nav id="hamburger-nav">
+    <div class="logo">Aryan Bhatt</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+    </div>
+    </div>
+   </nav>
+   <section id="profile">
+    <div class="section__pic-container">
+        <img src="./assests/profile-pic.png" alt="Aryan Bhatt profile picture">
+    </div>
+    <div class="section__text">
+        <p class="section__text__p1">Hello, i'm</p>
+        <h1 class="title">Aryan Bhatt</h1>
+        <p class="section__text__p2">Web Developer</p>
+        <div class="btn-container">
+            <button 
+            class="btn btn-color-2" 
+            onclick="window.open('./assests/resume-example.pdf')"
+            >Download Resume</button>
+            <button 
+            class="btn btn-color-1" 
+            onclick="location.href='./#contacts'"
+            >Contact Info</button>
+        </div>
+        <div id="social-container">
+            <img src="./assests/linkedin.png" alt="My Linkedin Profile"
+            class="icon" 
+            onclick="location.href = 'https://www.linkedin.com/in/aryan-bhatt-0a7803252/'">
+
+            <img src="./assests/github.png" alt="My Github Profile"
+            class="icon" 
+            onclick="location.href = 'https://github.com/AryanBhatt01'"> 
+        </div>
+   </div>
+   
+   </section>
+   <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div  class="section-container">
+        <div class="section__pic-container">
+            <img src="./assests/about-pic-2.jpg" alt="profile picture" 
+            class="about-pic">
+        </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="./assests/experience.png" 
+                    alt="Experience icon" 
+                    class="icon">
+                    <h3>Experience</h3>
+                    <p> 3+ Year <br>Web Developer</p>
+                </div>
+                <div class="details-container">
+                    <img src="./assests/education.png" 
+                    alt="Education icon" 
+                    class="icon">
+                    <h3>Education</h3>
+                    <p> Btech Bachelors Degreer <br>In Computer science and AIML</p>
+                </div>
+            </div>
+            <div class="text-container">
+                <p> Hi, I'm Aryan, a web developer with 2+ years of experience creating dynamic, 
+                    responsive websites using HTML, CSS, JavaScript, 
+                    and React. I’m passionate about crafting seamless 
+                    user experiences and solving complex problems with 
+                    clean, efficient code. When I'm not coding, 
+                    I enjoy playing video games. 
+                    Let’s connect to build something amazing together
+                </p>
+            </div>
+       </div>
+    </div>
+    <img src="./assests/arrow.png" 
+    alt="Arrow icon" 
+    class="icon arrow" 
+    onclick="location.href='./#experience'">
+   </section>
+   <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Web Developer
+                </h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assests/checkmark.png" 
+                        alt="Experience icon" 
+                        class="icon"
+                        >
+                        <div>
+                            <h3>HTML</h3>
+                            <P>Experienced</P>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assests/checkmark.png" 
+                        alt="Experience icon" 
+                        class="icon"
+                        >
+                        <div>
+                            <h3>CSS</h3>
+                            <P>Experienced</P>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assests/checkmark.png" 
+                        alt="Experience icon" 
+                        class="icon"
+                        >
+                        <div>
+                            <h3>SASS</h3>
+                            <P>Intermediate</P>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assests/checkmark.png" 
+                        alt="Experience icon" 
+                        class="icon"
+                        >
+                        <div>
+                            <h3>JavaScript</h3>
+                            <P>Basic</P>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assests/checkmark.png" 
+                        alt="Experience icon" 
+                        class="icon"
+                        >
+                        <div>
+                            <h3>TypeScript</h3>
+                            <P>Basic</P>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assests/checkmark.png" 
+                        alt="Experience icon" 
+                        class="icon"
+                        >
+                        <div>
+                            <h3>Material UI</h3>
+                            <P>Intermediate</P>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">Web Developer
+                </h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assests/checkmark.png" 
+                        alt="Experience icon" 
+                        class="icon"
+                        >
+                        <div>
+                            <h3>PostgreSQL</h3>
+                            <P>Basic</P>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assests/checkmark.png" 
+                        alt="Experience icon" 
+                        class="icon"
+                        >
+                        <div>
+                            <h3>Node JS</h3>
+                            <P>Intermediate</P>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assests/checkmark.png" 
+                        alt="Experience icon" 
+                        class="icon"
+                        >
+                        <div>
+                            <h3>Express JS</h3>
+                            <P>Intermediate</P>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assests/checkmark.png" 
+                        alt="Experience icon" 
+                        class="icon"
+                        >
+                        <div>
+                            <h3>Git</h3>
+                            <P>Intermediate</P>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="./assests/arrow.png" 
+    alt="Arrow icon" 
+    class="icon arrow" 
+    onclick="location.href='./#projects'">
+
+   </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+   <h1 class="title">Projects</h1>
+   <div class="experience-details-container">
+    <div class="about-containers">
+    <div class="details-container color-container">
+        <div class="article-container">
+            <!-- <span id="abcd" style="border: 1px red solid;height: 300px;width: 300px;overflow: hidden;border-radius: 10%;"></M><img src="./assests/pro1.png" width="100%"alt="Project 1"> </span> -->
+        <!-- Span with Image -->
+        <span id="abcd" class="image-span">
+            <img src="./assests/pro10.png" width="300px" alt="Thumbnail Image" class="thumbnail">
+        </span> 
+         <!-- Lightbox Pop-up Section -->
+         <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <div class="lightbox-content">
+                <img src="./assests/pro10.png" class="lightbox-image">
+            </div>
+        </div>
+        </div>
+        <h2 class="experience-sub-title project-title">
+            Project One</h2>
+            <div class="btn-container">
+            <button 
+                class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://qualitytradersclub.com/'"
+                >
+                Visit
+            </button>
+
+            <button 
+                class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://github.com/AryanBhatt01/Quality-Traders-Club'"
+                >
+                Live Demo
+            </button>
+            </div>
+    </div>
+    <div class="details-container color-container">
+        <div class="article-container">
+            <!-- <span id="abcd" style="border: 1px red solid;height: 300px;width: 300px;overflow: hidden;border-radius: 10%;"></M><img src="./assests/pro1.png" width="100%"alt="Project 1"> </span> -->
+        <!-- Span with Image -->
+        <span id="abcd2" class="image-span">
+            <img src="./assests/pro1.png" width="300px" alt="Thumbnail Image" class="thumbnail">
+        </span> 
+         <!-- Lightbox Pop-up Section -->
+         <div id="lightbox2" class="lightbox2">
+            <span class="close2">&times;</span>
+            <div class="lightbox-content">
+                <img src="./assests/pro1.png" class="lightbox-image">
+            </div>
+        </div>
+        </div>
+        <h2 class="experience-sub-title project-title">
+            Project Two</h2>
+            <div class="btn-container">
+            <button 
+                class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://elitehairandnailsalon.com/'"
+                >
+                Visit
+            </button>
+
+            <button 
+                class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://github.com/AryanBhatt01/Elite-Hair-And-Nail-Salon'"
+                >
+                Live Demo
+            </button>
+            </div>
+    </div>
+    <div class="details-container color-container">
+        <div class="article-container">
+            <!-- <span id="abcd" style="border: 1px red solid;height: 300px;width: 300px;overflow: hidden;border-radius: 10%;"></M><img src="./assests/pro1.png" width="100%"alt="Project 1"> </span> -->
+        <!-- Span with Image -->
+        <span id="abcd3" class="image-span">
+            <img src="./assests/pro2.png" width="300px" alt="Thumbnail Image" class="thumbnail">
+        </span> 
+         <!-- Lightbox Pop-up Section -->
+         <div id="lightbox3" class="lightbox3">
+            <span class="close3">&times;</span>
+            <div class="lightbox-content">
+                <img src="./assests/pro2.png" class="lightbox-image">
+            </div>
+        </div>
+        </div>
+        <h2 class="experience-sub-title project-title">
+            Project Three</h2>
+            <div class="btn-container">
+            <button 
+                class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://www.mirrorsbyreflect.com.au/'"
+                >
+                Visit
+            </button>
+
+            <button 
+                class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://github.com/AryanBhatt01/Mirrors-By-Reflect'"
+                >
+                Live Demo
+            </button>
+            </div>
+    </div>
+    
+</section> 
+  <section id="projects2">
+   <div class="experience-details-container">
+    <div class="about-containers">
+    <div class="details-container color-container">
+        <div class="article-container">
+            <!-- <span id="abcd" style="border: 1px red solid;height: 300px;width: 300px;overflow: hidden;border-radius: 10%;"></M><img src="./assests/pro1.png" width="100%"alt="Project 1"> </span> -->
+        <!-- Span with Image -->
+        <span id="abcd4" class="image-span">
+            <img src="./assests/pro3.png" width="300px" alt="Thumbnail Image" class="thumbnail">
+        </span> 
+         <!-- Lightbox Pop-up Section -->
+         <div id="lightbox4" class="lightbox4">
+            <span class="close3">&times;</span>
+            <div class="lightbox-content">
+                <img src="./assests/pro4.png" class="lightbox-image">
+            </div>
+        </div>
+        </div>
+        <h2 class="experience-sub-title project-title">
+            Project Four</h2>
+            <div class="btn-container">
+            <button 
+                class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://professordantcg.com/'"
+                >
+                Visit
+            </button>
+
+            <button 
+                class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://github.com/AryanBhatt01/Professor-Dan-s-Official-Shop'"
+                >
+                Live Demo
+            </button>
+            </div>
+    </div>
+    <div class="details-container color-container">
+        <div class="article-container">
+            <!-- <span id="abcd" style="border: 1px red solid;height: 300px;width: 300px;overflow: hidden;border-radius: 10%;"></M><img src="./assests/pro1.png" width="100%"alt="Project 1"> </span> -->
+        <!-- Span with Image -->
+        <span id="abcd5" class="image-span">
+            <img src="./assests/pro5.png" width="300px" alt="Thumbnail Image" class="thumbnail">
+        </span> 
+         <!-- Lightbox Pop-up Section -->
+         <div id="lightbox5" class="lightbox5">
+            <span class="close5">&times;</span>
+            <div class="lightbox-content">
+                <img src="./assests/pro5.png" class="lightbox-image">
+            </div>
+        </div>
+        </div>
+        <h2 class="experience-sub-title project-title">
+            Project Five</h2>
+            <div class="btn-container">
+            <button 
+                class="btn btn-color-2 project-btn" 
+                onclick="location.href=' https://summitpharma.com.au/'"
+                >
+                Visit
+            </button>
+
+            <button 
+                class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://github.com/AryanBhatt01/Summit-Pharma?tab=readme-ov-file'"
+                >
+                Live Demo
+            </button>
+            </div>
+    </div>
+    <div class="details-container color-container">
+        <div class="article-container">
+            <!-- <span id="abcd" style="border: 1px red solid;height: 300px;width: 300px;overflow: hidden;border-radius: 10%;"></M><img src="./assests/pro1.png" width="100%"alt="Project 1"> </span> -->
+        <!-- Span with Image -->
+        <span id="abcd6" class="image-span">
+            <img src="./assests/pro6.png" width="300px" alt="Thumbnail Image" class="thumbnail">
+        </span> 
+         <!-- Lightbox Pop-up Section -->
+         <div id="lightbox6" class="lightbox6">
+            <span class="close6">&times;</span>
+            <div class="lightbox-content">
+                <img src="./assests/pro6.png" class="lightbox-image">
+            </div>
+        </div>
+        </div>
+        <h2 class="experience-sub-title project-title">
+            Project Six</h2>
+            <div class="btn-container">
+            <button 
+                class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://martoo.com/?ign_skip=martoo123'"
+                >
+                Visit
+            </button>
+
+            <button 
+                class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://github.com/AryanBhatt01/Martoo'"
+                >
+                Live Demo
+            </button>
+            </div>
+    </div>
+    
+   </section> 
+  <section id="projects3">
+    <div class="about-containers2">
+   <div class="experience-details-container">
+    <div class="about-containers">
+        
+    <div class="details-container color-container">
+        <div class="article-container">
+            <!-- <span id="abcd" style="border: 1px red solid;height: 300px;width: 300px;overflow: hidden;border-radius: 10%;"></M><img src="./assests/pro1.png" width="100%"alt="Project 1"> </span> -->
+        <!-- Span with Image -->
+        <span id="abcd7" class="image-span">
+            <img src="./assests/pro4.png" width="300px" alt="Thumbnail Image" class="thumbnail">
+        </span> 
+         <!-- Lightbox Pop-up Section -->
+         <div id="lightbox7" class="lightbox7">
+            <span class="close7">&times;</span>
+            <div class="lightbox-content">
+                <img src="./assests/pro4.png" class="lightbox-image">
+            </div>
+        </div>
+        </div>
+        <h2 class="experience-sub-title project-title">
+            Project Seven</h2>
+            <div class="btn-container">
+            <button 
+                class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://www.directbookingsummit.com/'"
+                >
+                Visit
+            </button>
+
+            <button 
+                class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://github.com/AryanBhatt01/Direct-Booking-Summit'"
+                >
+                Live Demo
+            </button>
+            </div>
+    </div>
+    <div class="details-container color-container">
+        <div class="article-container">
+            <!-- <span id="abcd" style="border: 1px red solid;height: 300px;width: 300px;overflow: hidden;border-radius: 10%;"></M><img src="./assests/pro1.png" width="100%"alt="Project 1"> </span> -->
+        <!-- Span with Image -->
+        <span id="abcd8" class="image-span">
+            <img src="./assests/pro8.png" width="300px" alt="Thumbnail Image" class="thumbnail">
+        </span> 
+         <!-- Lightbox Pop-up Section -->
+         <div id="lightbox8" class="lightbox5">
+            <span class="close8">&times;</span>
+            <div class="lightbox-content">
+                <img src="./assests/pro8.png" class="lightbox-image">
+            </div>
+        </div>
+        </div>
+        <h2 class="experience-sub-title project-title">
+            Project Eight</h2>
+            <div class="btn-container">
+            <button 
+                class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://movepacchoice.com/'"
+                >
+                Visit
+            </button>
+
+            <button 
+                class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://github.com/AryanBhatt01/Pacific-Choice-Moving-Company'"
+                >
+                Live Demo
+            </button>
+            </div>
+    </div>
+    <div class="details-container color-container">
+        <div class="article-container">
+            <!-- <span id="abcd" style="border: 1px red solid;height: 300px;width: 300px;overflow: hidden;border-radius: 10%;"></M><img src="./assests/pro1.png" width="100%"alt="Project 1"> </span> -->
+        <!-- Span with Image -->
+        <span id="abcd9" class="image-span">
+            <img src="./assests/pro9.png" width="300px" alt="Thumbnail Image" class="thumbnail">
+        </span> 
+         <!-- Lightbox Pop-up Section -->
+         <div id="lightbox9" class="lightbox9">
+            <span class="close9">&times;</span>
+            <div class="lightbox-content">
+                <img src="./assests/pro9.png" class="lightbox-image">
+            </div>
+        </div>
+        </div>
+        <h2 class="experience-sub-title project-title">
+            Project Nine</h2>
+            <div class="btn-container">
+            <button 
+                class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://www.journeyscentralwest.com.au/'"
+                >
+                Visit
+            </button>
+
+            <button 
+                class="btn btn-color-2 project-btn" 
+                onclick="location.href='https://github.com/AryanBhatt01/journeys'"
+                >
+                Live Demo
+            </button>
+            </div>
+
+    </div>
+</div>
+<div class="arrow1">
+    <img src="./assests/arrow.png" 
+    alt="Arrow icon" 
+    class="icon arrow" 
+    onclick="location.href='./#contact'">
+</div>
+</section>
+  
+   <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img 
+            src="./assests/email.png" 
+            alt="Email icon" 
+            class="icon contact-icon email-icon"
+            >
+            <p><a href="mailto:aryanvisuals1@gmail.com">
+             aryanvisuals1@gmail.com
+            </a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="./assests/linkedin.png" 
+            alt="LinkedIn icon" 
+            class="icon contact-icon"
+            >
+            <p><a href="https://www.linkedin.com/in/aryan-bhatt-0a7803252/">
+                LinkedIn
+            </a></p>
+        </div>
+    </div>
+   </section>
+   <footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p>Copyrighr &#169; 2024 Aryan Bhatt. All Right Reserved.</p>
+   </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
